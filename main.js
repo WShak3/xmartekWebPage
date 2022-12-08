@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const loginPassword = loginForm.querySelector("#password").value;
 
     if (loginUser === 'wroldan@outlook.es' && loginPassword === 'xmartek123') {
-      window.location.replace('/expiring_licence.html');
+      window.location.replace('expiringLicence.html');
     } else {
       setFormMessage(loginForm, "error", "Invalid username or password");
     }    
