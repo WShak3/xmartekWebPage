@@ -1,0 +1,25 @@
+.header {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  background-color: white;
+  border-bottom: 1px, solid, rgb(230,230,230);
+}
+.left-section {    
+  display: flex;
+  align-items: center;
+}
+.middle-section {
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}

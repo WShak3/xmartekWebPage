@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="images/favicon.ico"/> 
+    <title>Xmartek Licence Finder</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="/styles/expiringLicence.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/adminInfo.css">
+  </head>  
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">        
+      </div>
+      <div class="middle-section">
+        <img class="xmartek-logo" src="images/logo.png">
+      </div>        
+      <div class="right-section">
+        <!--<img class="current-user-picture" src="channel-pictures/my-channel.jpeg">-->
+      </div>            
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <a class="sidebar-link" href="">Administrative Information</a>
+      </div>
+      <div class="sidebar-link">
+        <a class="sidebar-link not-done" href="">General Pricing Information</a>
+      </div>
+      <div class="sidebar-link">
+        <a class="sidebar-link not-done" href="">Pricing Information for a license key</a>
+      </div>
+      <div class="sidebar-link">
+        <a class="sidebar-link not-done" href="">Pricing Information for Edition</a>
+      </div>
+      <div class="sidebar-link">
+        <a class="sidebar-link not-done" href="">Get Partner Margin</a>
+      </div>
+      <div class="sidebar-link">
+        <a class="sidebar-link not-done" href="">Get Child Partner List</a>
+      </div>
+      <div class="sidebar-link">
+        <a class="sidebar-link not-done" href="">Get Credit Status</a>
+      </div>
+    </nav>
+
+    <div class="root">
+      <div class="container">
+        <form class="search-bar">
+          <button class="search-bar-button">Find Licence</button>
+          <input type="text" class="license-input" placeholder="Write your Licence Key">
+          <div class="search-bar-error-message"></div>
+        </form>
+        <table class="table">
+          <thead class="table-header">
+            <tr>
+              <!--<th>Expiration date</th>
+              <th>Licence Key</th>
+              <th>Reseller ID</th>
+              <th>Edition</th>
+              <th>Is perpetual</th>
+              <th>Simultaneos Calls</th>
+              <th>Type</th>-->
+
+              <th>Licence Key</th>
+              <th>Reseller ID</th>
+              <th>Expiration date</th>
+              <th>Edition</th>
+              <th>Is perpetual</th>
+              <th>Simultaneos Calls</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody class="table-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="expiringLicence.js"></script>
+  </body>
+</html>

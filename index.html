@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="images/favicon.ico"/> 
+    <title>XmarteK</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles/login.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="root">
+        <div class="root-container">
+          <div class="container-widget">
+            <div class="login-container">
+              <header>
+                <div class="header-icon">
+                  <img alt="XmarteK logo" class="sign-in-logo" src="images/login.png">
+                </div>
+                <div class="widget-login-info">
+                  <h2>Sign in</h2>
+                  <p>Use your email address and password to sign in.</p>
+                </div>
+              </header>
+              <div>          
+                <form class="form" id="logIn">
+                  <div class="input-form">
+                    <div class="form-message-error"></div>                  
+                    <input autofocus class="input-form-control" name="email" id="email" placeholder="Email" type="text">
+                    <div class="form-error-message"></div>
+                  </div>
+                  <div class="input-form">
+                    <input autofocus class="input-form-control" name="password" id="password" placeholder="Password" type="password">                  
+                  </div>
+                  <div class="form-button">
+                    <button class="continue-button">Continue</button>
+                  </div>
+                </form>
+              </div>
+              <div class="container-footer">              
+                <div class="form-info">
+                  <p class="form-text">
+                    <a href="#" class="form-link">Forgot your password?</a>
+                  </p>
+                  <p class="form-text">
+                    <a class="form-link" href="./" id="link-create-account">Don't have an account? Create account</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="signup-container hiddenContainer">
+              <header>
+                <div class="header-icon">
+                  <img class="signup-image" alt="XmarteK logo" src="images/logo.png">
+                </div>
+                <div class="widget-login-info">
+                  <h3>Create Account</h3>
+                </div>
+              </header>
+              <div>          
+                <form class="form" id="signUp">
+                  <div class="input-form">                    
+                    <input autofocus class="input-form-control" name="userName" id="userName" placeholder="Username" type="text">
+                    <div class="form-error-message"></div>
+                  </div>
+                  <div class="input-form">                    
+                    <input autofocus class="input-form-control" name="createEmail" id="createEmail" placeholder="Email" type="text">
+                    <div class="form-error-message"></div>
+                  </div>
+                  <div class="input-form">                    
+                    <input autofocus class="input-form-control" name="createPassword" id="createPassword" placeholder="Password" type="password">
+                    <div class="form-error-message"></div>
+                  </div>
+                  <div class="input-form">                    
+                    <input autofocus class="input-form-control" name="confirmPassword" id="confirmPassword" placeholder="Confirm password" type="password">
+                    <div class="form-error-message"></div>
+                  </div>
+                  <div class="form-button">
+                    <button class="continue-button">Register</button>
+                  </div>
+                </form>
+              </div>
+              <div class="container-footer">              
+                <div class="form-info">
+                  <p class="form-text">
+                    <a class="form-link" href="./" id="linkLogin">Already have an account? Sign in</a>
+                  </p>                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>      
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+body {    
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding: 100px 47px;
+  padding-left: 300px;  
+  background-color: rgb(247, 247, 247);
+}
+.root {
+  height: 100hv;
+}
