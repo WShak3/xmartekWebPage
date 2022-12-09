@@ -2,8 +2,7 @@ const apiRequest = "https://api.3cx.com/public/v1/order/expiringkeys";
 const apiHeader = {
   method: "GET",
   headers: {
-    'Authorization': 'Basic ' + btoa('h7JSaJbQOALydkQvtUbt:'),
-    mode: 'no-cors' 
+    'Authorization': 'Basic ' + btoa('h7JSaJbQOALydkQvtUbt:')    
     }
 };
 async function licenseApiRequest() {
